@@ -1,4 +1,5 @@
 >高仿系统指南针，方向数据是地磁航向数据，有定位地理位置信息和地磁方向信息，可以和系统的指南针对比看一看。
+
 ##一、运行效果
 
 ![总效果.gif](http://upload-images.jianshu.io/upload_images/1708447-94d1e9baa4a2f98f.gif?imageMogr2/auto-orient/strip)
@@ -210,6 +211,5 @@
 ```
 ![本汪.gif](http://upload-images.jianshu.io/upload_images/1708447-2383c9334e5b5884.gif?imageMogr2/auto-orient/strip)
 
-示例Demo：[iOS 仿系统指南针](http://www.demodashi.com/demo/11107.html)
 
 ![点个赞吧.jpg](http://upload-images.jianshu.io/upload_images/1708447-f388dca829704b5d.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
