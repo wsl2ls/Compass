@@ -3,14 +3,14 @@
 
 >高仿系统指南针，方向数据是地磁航向数据，有定位地理位置信息和地磁方向信息，可以和系统的指南针对比看一看。
 
-##一、运行效果
+## 一、运行效果
 
 ![总效果.gif](http://upload-images.jianshu.io/upload_images/1708447-94d1e9baa4a2f98f.gif?imageMogr2/auto-orient/strip)
 ![效果.png](http://upload-images.jianshu.io/upload_images/1708447-fc8b66639ef0290c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-##二、实现过程
-####1.继承于UIView创建一个带刻度标注的视图ScaleView，利用UIBezierPath和CAShapeLayer、UILabel，默认0刻度(北)在最上方。
+## 二、实现过程
+#### 1.继承于UIView创建一个带刻度标注的视图ScaleView，利用UIBezierPath和CAShapeLayer、UILabel，默认0刻度(北)在最上方。
 ```
 //化刻度表
 - (void)paintingScale{
@@ -94,7 +94,7 @@
 }
 
 ```
-####2、利用CLLocationManager初始化定位装置，并设置代理 ，记得在info.plist中加入隐私定位权限关键字 Privacy - Location When In Use Usage Description
+#### 2、利用CLLocationManager初始化定位装置，并设置代理 ，记得在info.plist中加入隐私定位权限关键字 Privacy - Location When In Use Usage Description
 ```
   // 注意开启手机的定位服务，隐私那里的
     self.locationManager = [[CLLocationManager alloc]init];
@@ -158,7 +158,7 @@
     }
 }
 ```
-####3、通过代理方法获得经纬度以及海拔数据，然后利用经纬度进行地理反编码获得地理位置信息。
+#### 3、通过代理方法获得经纬度以及海拔数据，然后利用经纬度进行地理反编码获得地理位置信息。
 ```
 // 定位成功之后的回调方法，只要位置改变，就会调用这个方法
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations{
