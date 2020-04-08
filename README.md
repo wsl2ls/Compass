@@ -5,8 +5,8 @@
 
 ## 一、运行效果
 
-![总效果.gif](http://upload-images.jianshu.io/upload_images/1708447-94d1e9baa4a2f98f.gif?imageMogr2/auto-orient/strip)
-![效果.png](http://upload-images.jianshu.io/upload_images/1708447-fc8b66639ef0290c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![总效果](Compass/总效果.gif)
+![效果](Compass/效果.png)
 
 
 ## 二、实现过程
